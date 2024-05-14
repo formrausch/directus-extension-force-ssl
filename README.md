@@ -5,12 +5,12 @@ default is set via a `NODE_ENV` environment variable.
 
 # Setup
 
-1. `npm i`
+1. `yarn`
 
 # Build
 
 ```
-npm run build
+yarn run build
 ```
 
 # Install
@@ -24,6 +24,6 @@ project under `./extensions/hooks/force-ssl/`.
 npx directus-extension build -o /path/to/your/directus/extensions/hooks/force-ssl/index.js  -w
 ```
 
-Extension behaviour is dependent on `NODE_ENV` so you may also need to 
+Extension behaviour is dependent on `NODE_ENV` so you may also need to
 tweak your `.env` or environment variables to get it to do anything in
 development.
